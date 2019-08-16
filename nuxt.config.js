@@ -54,13 +54,7 @@ export default {
 }
 
 export default {
-  "config": {
-    "nuxt": {
-      "host": "192.185.4.156",
-      "port": "2222"
-    }
-  },
-  "scripts": {
-    "dev": "nuxt"
+  router: {
+    base: '/fredelynveraque/'
   }
 }
