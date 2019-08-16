@@ -56,7 +56,7 @@ export default {
 export default {
   "config": {
     "nuxt": {
-      "host": "0.0.0.0",
+      "host": "192.185.4.156",
       "port": "2222"
     }
   },
