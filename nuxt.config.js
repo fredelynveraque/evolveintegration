@@ -53,14 +53,14 @@ export default {
   }
 }
 
-/* nuxt.config.js */
-// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/fredelynveraque/'
-  }
-} : {}
-
 export default {
-  ...routerBase
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "2222"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt"
+  }
 }
